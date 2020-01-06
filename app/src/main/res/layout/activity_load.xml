@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoadActivity">
+
+    <EditText
+        android:id="@+id/load_editText"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="请输入密码"
+        android:layout_centerInParent="true"
+        android:inputType="numberPassword" >
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/load_textView"
+        android:textColor="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/load_editText"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:text=""
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/load_button"
+        android:layout_toRightOf="@id/load_editText"
+        android:textColor="@color/colorAccent"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确定" />
+
+</RelativeLayout>

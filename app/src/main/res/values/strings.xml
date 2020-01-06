@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">I Can\'t Open It</string>
+    <string name="launcher_name">老子打不开它</string>
+    <string name="title_activity_main">老子打不开它</string>
+    <string name="title_activity_setting">设置</string>
+    <string name="title_activity_load"></string>
+</resources>
